@@ -1,0 +1,24 @@
+body{font:12px/15px tahoma,'\5FAE\8F6F\96C5\9ED1','\65B0\5B8B\4F53',sans-serif;-font-family:Helvetica,'\5FAE\8F6F\96C5\9ED1','\65B0\5B8B\4F53',sans-serif;}
+
+.mark_tl{display:block;height:15px;padding-left:5px;line-height:15px;border-left:1px solid #666;background:url(img/border_shadow.png) no-repeat left bottom;}
+.group_label_tl label{top:2px;padding-bottom:2px;padding-left:5px;border-left:1px dotted #666;color:#333;font-weight:bold;text-shadow:0 1px 0 rgba(255, 255, 255, 0.7);white-space:nowrap}
+
+.wrap_tl{position:relative;overflow:hidden;width:100%;height:100%}
+.mark_g_tl td{vertical-align:bottom}
+.table_tl{height:100%}
+
+.mark_g_tl,
+.group_label_tl label
+{position:absolute;}
+
+.mark_g_tl .mark_tl,
+.years_g_tl .mark_tl, 
+.century_g_tl .mark_tl,
+.year_g_tl .mark_tl,
+.month_g_tl .mark_tl,
+.day_g_tl .mark_tl,
+.hour_g_tl .mark_tl,
+.minute_g_tl .mark_tl
+{margin-top:15px;padding-right:5px}
+
+.timeline_wrap_bs{width:960px;height:50px;overflow:hidden;}
